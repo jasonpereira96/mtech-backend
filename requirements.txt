@@ -1,0 +1,16 @@
+requirements
+
+mysql
+dbbeaver
+mysql config - fuck!
+nginx
+nodejs
+npm 
+npx
+react
+create react app
+material ui
+material ui - icons
+dev extreme grid
+grid core
+grid visual
