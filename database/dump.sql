@@ -16,6 +16,16 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Current Database: `Students`
+--
+
+DROP DATABASE IF EXISTS `Students`;
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `Students` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `Students`;
+
+--
 -- Table structure for table `Students`
 --
 
@@ -54,4 +64,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-09-14 17:59:18
+-- Dump completed on 2020-09-14 18:44:08
