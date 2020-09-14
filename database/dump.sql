@@ -51,7 +51,7 @@ CREATE TABLE `Students` (
 
 LOCK TABLES `Students` WRITE;
 /*!40000 ALTER TABLE `Students` DISABLE KEYS */;
-INSERT INTO `Students` VALUES (1,'Daniel DSliva','Electronics','Borivali','9321524870',6.48,'BTECH','2'),(2,'Karan Mamaniya','Electronics','Mahim','1234345343',7.8,'BTECH','2'),(3,'Jason Pereira','Computer Science','Borivali','9769190949',7.1,'BE','4'),(4,'Sneha Joshi','Computer Science','Malad','9869815863',8.2,'BTECH','4'),(5,'Praveen Pacha','Electronics','Borivali','8897458125',7.7,'MTECH','1'),(6,'Rohit Sharma','Mechanical','Andheri','8896574932',8,'MTECH','2'),(7,'Reshma Samuel','Electronics','Kandivali','9784210520',7.5,'BTECH','2'),(8,'Kaustubh Mhatre','Mechanical','Borivali','9192138460',6.9,'MTECH','1'),(9,'Abhishek Kargutkar','Mechanical','Dahisar','9993652014',7.8,'BE','3'),(10,'Shilpi Sharma','Computer Science','Matunga','7894581250',9.2,'BE','3'),(11,'Karan Singh','Eletronics','Kandivali','9475612224',8.4,'BTECH','3');
+INSERT INTO `Students` VALUES (1,'Daniel DSliva','Electronics','Borivali','9321524870',6.48,'BTECH','2'),(2,'Karan Mamaniya','Electronics','Mahim','1234345343',7.8,'BTECH','2'),(3,'Jason Pereira','Computer Science','Borivali','9769190949',7.1,'BE','4'),(4,'Sneha Joshi','Computer Science','Malad','9869815863',8.2,'BTECH','4'),(5,'Praveen Pacha','Electronics','Borivali','8897458125',7.7,'MTECH','1'),(6,'Rohit Sharma','Mechanical','Andheri','8896574932',8,'MTECH','2'),(7,'Reshma Samuel','Electronics','Kandivali','9784210520',7.5,'BTECH','2'),(8,'Kaustubh Mhatre','Mechanical','Borivali','9192138460',6.9,'MTECH','1'),(9,'Abhishek Kargutkar','Mechanical','Dahisar','9993652014',7.8,'BE','3'),(10,'Shilpi Sharma','Computer Science','Matunga','7894581250',9.2,'BE','3'),(11,'Karan Singh','Electronics','Kandivali','9475612224',8.4,'BTECH','3');
 /*!40000 ALTER TABLE `Students` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -64,4 +64,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-09-14 18:44:08
+-- Dump completed on 2020-09-14 20:11:35
