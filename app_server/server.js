@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = 3001;
+const PORT = 3001; //application server port
 
 const USERNAME = 'root';
 const PASSWORD = 'root';
@@ -16,8 +16,11 @@ var connection = mysql.createConnection({
 });
 
 connection.connect(function (err) {
-    if (err) throw err;
-    console.log("Connected!");
+    if (err) {
+        console.log("Connection to database failed!");
+        throw err;
+    }
+    console.log("Connection to database successful!");
 });
 
 app.use(cors());
@@ -47,8 +50,8 @@ app.get('/data', (request, res) => {
 
 });
 
-app.listen(port, () => {
-    console.log(`App listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`App listening at http://localhost:${PORT}`);
 });
 
 function getSQL(query) {
@@ -60,7 +63,7 @@ function getSQL(query) {
 
     var filterCriteria = filters.map(filter => {
         let { value, operation, columnName } = filter;
-        return `\`${columnName}\` like "${value}%"`;
+        return `\`${columnName}\` like "%${value}%"`;
     });
     return sql + filterCriteria.join(' and ');
     // return 'select * from Students.Students;';
