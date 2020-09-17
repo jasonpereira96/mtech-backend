@@ -27,4 +27,4 @@ These may change depending on which VM your DB is running on and what is the cur
 1. Ensure that the mysql daemon process is up and running
 2. Ensure that the database has been created.
 3. Ensure that the DB hostname, username and password match those in the server.js file
-4. Then in the app_server folder, execute `node server.js`. This will start the server.
+4. Then in the root directory, execute `npm start`. This will start the server.
